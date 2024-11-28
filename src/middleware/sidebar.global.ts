@@ -1,4 +1,4 @@
 export default defineNuxtRouteMiddleware(() => {
-	const { showSidebar } = useSidebar();
-	showSidebar.value = false;
-});
+  const { showSidebar } = useSidebar()
+  showSidebar.value = false
+})

@@ -1,8 +1,8 @@
 <template>
-	<div>
-		<SiteNavbar sticky />
-		<SiteSidebar />
+  <div>
+    <SiteNavbar sticky />
+    <SiteSidebar />
 
-		<slot />
-	</div>
+    <slot />
+  </div>
 </template>

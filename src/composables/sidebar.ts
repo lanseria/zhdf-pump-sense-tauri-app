@@ -1,7 +1,7 @@
-export const useSidebar = () => {
-	const showSidebar = useState("sidebar", () => false);
+export function useSidebar() {
+  const showSidebar = useState('sidebar', () => false)
 
-	return {
-		showSidebar
-	};
-};
+  return {
+    showSidebar,
+  }
+}

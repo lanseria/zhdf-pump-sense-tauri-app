@@ -8,7 +8,7 @@ export default defineNuxtConfig({
   ],
   app: {
     head: {
-      title: 'Nuxtor',
+      title: '机泵数据获取',
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
       meta: [
