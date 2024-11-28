@@ -26,11 +26,11 @@ const tauriVersion = await useTauriAppGetTauriVersion()
         <NavLink to="/notifications">
           通知
         </NavLink>
+        <NavLink to="/settings">
+          配置
+        </NavLink>
         <NavLink to="/os">
           系统信息
-        </NavLink>
-        <NavLink to="/file">
-          文件
         </NavLink>
       </div>
       <div hidden lg="flex flex-1 justify-end">
